@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import logf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-logf@deno/mod.js';
+import logf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-logf@v0.1.1-deno/mod.js';
 ```
 
 #### logf( x, b )
@@ -83,7 +83,7 @@ v = logf( 2.0, -4.0 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import logf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-logf@deno/mod.js';
+import logf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-logf@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
